@@ -14,5 +14,6 @@ BEGIN
      ON Student.StudentID = FinancialAid.StudentID 
      ON StudentContact.ContactID = Student.ContactID
   WHERE Student.StudentID IS NOT NULL
+    AND StudentID <> 1880
 
 END
