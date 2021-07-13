@@ -1,3 +1,4 @@
 ﻿CREATE VIEW [dbo].[vwClub] AS
-  SELECT [Club]
+  SELECT [ClubID] 
+    , [Club]
     FROM [dbo].[Club]
