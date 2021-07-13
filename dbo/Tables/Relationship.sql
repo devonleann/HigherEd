@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Relationship](
+	[RelationshipID] [int] IDENTITY(1,1) NOT NULL,
+	[Relationship] [varchar](25) NOT NULL,
+ CONSTRAINT [PK_Relationship] PRIMARY KEY CLUSTERED 
+(
+	[RelationshipID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
