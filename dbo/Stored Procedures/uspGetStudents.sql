@@ -15,6 +15,6 @@ BEGIN
      ON StudentContact.ContactID = Student.ContactID
   WHERE Student.StudentID IS NOT NULL
     AND Student.StudentID <> 1880
-    AND Student.FirstName not in  ('Bob','Susie')
+    AND Student.FirstName not in  ('Bob','Susie','Mary')
 
 END
